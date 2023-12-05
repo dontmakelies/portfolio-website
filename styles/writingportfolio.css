@@ -1,0 +1,113 @@
+.writing_header {
+  font-family: "puffin-arcade-chrome", sans-serif, Rubik, Arial;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  text-align: center;
+}
+
+.writing_content_header {
+  font-family: "puffin-arcade-liquid", sans-serif, Rubik, Arial;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  text-align: center;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 6% 20px 6%;
+  
+}
+
+.columns {
+  flex: 30%;
+  max-width: 30%;
+  padding-right: 20px;
+}
+
+.portfolio_images {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.content_title {
+  font-family: Rubik, Arial;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
+.content_title:hover {
+  color: #2a7f9e;
+}
+
+.content_description {
+  font-family: Rubik;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.line {
+  border-top: 1.5px solid #f59098;
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.here_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a7f9e;
+}
+
+.here_link:hover {
+  color: #331b12;
+}
+
+.content_list {
+  font-family: Rubik;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.content_link {
+  text-decoration: none;
+  color: #331b12;
+}
+
+.content_link:hover {
+  color: #2a7f9e;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-bottom: 26px;
+}
+
+/*
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

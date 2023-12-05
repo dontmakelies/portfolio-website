@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Don't Make Lies by Madison Mercado</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon pink.svg">
+
+    <link rel="stylesheet" href="https://use.typekit.net/mxg8fin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="logo_corner">
+        <a href="index.html"><img class="logo" src="DML_Logo_250_wide.png"></a> 
+      </div>
+
+      <div class="socials_menu">
+        <a href="https://www.instagram.com/dontmakelies/" target="_blank"><img class="instagram_icon" src="social_icons/instagram_icon.svg"></a>
+        <a href="https://www.linkedin.com/in/madisonmercado/" target="_blank"><img class="linkedin_icon" src="social_icons/linkedin_icon.svg"></a>
+      </div>
+
+      <div class="menu">
+        <button class="dropdown_menu">Menu</button>
+        <div class="dropdown_content">
+          <a href="writingportfolio.html">Writing Portfolio</a>
+          <a href="designportfolio.html">Design Portfolio</a>
+          <a href="aboutme.html">About</a>
+          <a href="https://dontmakelies.substack.com/" target="_blank">Blog</a>
+          <a href="https://www.etsy.com/shop/dontmakelies" target="_blank">Shop</a>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="homepage">
+      <div class="left_text">
+        Hi! My name&#39;s Madison. </br> </br>
+        Welcome to my studio.
+      </div>
+  
+      <div class="studio">
+        <img class="studio_background" src="images/studio background.png">
+        <a href="aboutme.html"><img class="about" src="images/about.png"></a>
+        <a href="https://dontmakelies.substack.com/" target="_blank"><img class="blog" src="images/blog.png"></a>
+        <a href="https://www.etsy.com/shop/dontmakelies" target="_blank"><img class="shop" src="images/shop.png"></a>
+        <img class="shop_bg" src="images/shop.png">
+
+          <a href="designportfolio.html"><img id="design_image" class="design" src="images/design.png"></a> 
+          <a href="writingportfolio.html"><img id="writing_image" class="writing" src="images/writing.png"></a>  
+          <img onclick="show()" id="portfolio_image" class="portfolio" src="images/portfolio.png">
+        
+      </div>
+  
+      <div class="right_text">
+        Click on the labeled items to learn more about me.
+      </div>
+    </div>
+
+    <p class="footnote">Website designed and created by Madison Mercado. </br> View on fullscreen desktop for best experience.</p>
+
+    
+    <script>
+      function show() {
+            /* Access image by id and change 
+            the display property to block*/
+            document.getElementById('portfolio_image')
+                .style.display = "inline-block";
+            document.getElementById('design_image')
+                .style.display = "inline-block";
+            document.getElementById('writing_image')
+                .style.display = "inline-block";
+            
+
+        }
+        
+    </script>
+
+  </body>
+
+</html>
