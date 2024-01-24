@@ -1,0 +1,168 @@
+.design_header {
+  font-family: "puffin-arcade-chrome", sans-serif, Rubik, Arial;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 72px;
+}
+
+.image_gallery {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.image_gallery img {
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+.image_gallery img:hover {
+  box-shadow: 0 0 10px #f59098;
+}
+
+.content_title {
+  font-family: Rubik, Arial;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #331b12;
+}
+
+.content_title:hover {
+  color: #f59098;
+}
+
+.rows {
+  margin: 8px -16px;
+}
+
+.rows,
+.rows > .columns {
+  padding: 8px;
+}
+
+.columns {
+  float: left;
+  width: 31%;
+}
+/* Clear floats after rows */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 700px) {
+  .columns {
+    width: 46%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 6% 20px 6%;
+  
+}
+
+.columns {
+  flex: 30%;
+  max-width: 30%;
+  padding-right: 20px;
+}
+
+.portfolio_images {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 4px;
+  object-fit: contain;
+}
+
+.content_title {
+  font-family: Rubik, Arial;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+  color: #331b12;
+}
+
+.content_title:hover {
+  color: #f59098;
+}
+
+.content_description {
+  font-family: Rubik;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.music_images {
+  float: left;
+  width: 30%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20px;
+}
+
+.image_column {
+  flex: 50%;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.images {
+  width: 100%;
+}
+
+.text_column {
+  flex: 50%;
+  font-family: Rubik;
+  text-align: left;
+  margin-top: -14px;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .music_images {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .music_images {
+    width: 100%;
+  }
+}

@@ -1,0 +1,116 @@
+.design_content_header {
+  font-family: "puffin-arcade-liquid", sans-serif, Rubik, Arial;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 72px;
+}
+
+.here_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a7f9e;
+}
+
+.here_link:hover {
+  color: #331b12;
+}
+
+.image_gallery {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.image_gallery img {
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+.content_title {
+  font-family: Rubik, Arial;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #331b12;
+}
+
+.content_title:hover {
+  color: #f59098;
+}
+
+.rows {
+  margin: 8px -16px;
+}
+
+.rows,
+.rows > .columns {
+  padding: 8px;
+}
+
+.columns {
+  float: left;
+  width: 48%;
+}
+/* Clear floats after rows */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 700px) {
+  .columns {
+    width: 46%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
+  .image_gallery {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+}
+
+.content_description {
+  font-family: Rubik;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.content_description_2 {
+  font-family: Rubik;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.list{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.images {
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+.text {
+  flex: 50%;
+  font-family: Rubik;
+  text-align: left;
+}

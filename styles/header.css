@@ -1,0 +1,204 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #f4ebd9;
+}
+
+.logo_section {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.logo {
+  width: 150px;
+  margin: auto;
+  display: block;
+}
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 202; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #f59098; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: #f4ebd9;
+  font-family: Rubik, Helvetica;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #331b12;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  position: fixed;
+  cursor: pointer;
+  font-size: 26px;
+  margin-top: 20px;
+  margin-left: 35px;
+  z-index: 201;
+}
+
+.openbtn:hover {
+  color:#f59098;
+}
+
+.closebtn {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.socials_icons {
+  display: flex;
+  flex-direction: row; 
+}
+
+.instagram_icon {
+  height: 22px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.linkedin_icon {
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/*
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 10px;
+  }
+  .header {
+    top:52px;
+    left:0;
+  }
+  .sidebar a {float: left;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+}
+
+
+/*
+.logo_corner {
+  display: flex;
+  flex: 4.4;
+  align-items: center;
+}
+
+.logo {
+  height: 42px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.socials_menu {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram_icon {
+  height: 22px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.linkedin_icon {
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.dropdown_menu {
+  display: inline-block;
+  margin: 14px 20px;
+  background-color: #ffda97;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px 4px 10px;
+
+  font-family: "puffin-arcade-regular", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  z-index: 100;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  top: 52px;
+  left: 20px;
+  background-color: #f4ebd9;
+  font-family: Rubik, Helvetica;
+  font-size: 14px;
+  min-width: 100px;
+}
+
+.dropdown_content a {
+  color: #331b12;
+  padding: 8px 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown_content a:hover {
+  background-color: #ffda97;
+}
+
+.menu:hover .dropdown_content {
+  display: block;
+}
+
+.menu:hover .dropdown_menu {
+  background-color: #6fafca;
+}

@@ -1,0 +1,58 @@
+.hello {
+  font-family: "puffin-arcade-chrome", sans-serif, Rubik, Arial;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 72px;
+}
+
+.madison_pic {
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+  padding-right: 10px;
+  padding-bottom: 10px; 
+  padding-left: 10%;
+  float: left; 
+}
+
+
+.about_me_paragraphs {
+  font-family: Rubik, Arial;
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.resume_link {
+  font-family: Rubik, Arial;
+  font-size: 16px;
+  color: #331b12;
+}
+
+.resume_link:hover {
+  color: #f59098;
+}
+
+@media screen and (max-width: 700px) {
+  .image_wrap {
+    float: left; 
+
+  }
+  .madison_pic {
+    width: 80%;
+    object-fit: cover;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .image_wrap {
+    float: left; 
+
+  }
+  .madison_pic {
+    width: 80%;
+    object-fit: cover;
+}
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Design Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon pink.svg">
+
+    <link rel="stylesheet" href="https://use.typekit.net/mxg8fin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">    
+
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/designportfolio.css">
+    <link rel="stylesheet" href="styles/general.css">
+  </head>
+  
+  <body class="body">
+    <div class="header">
+      <div class="logo_section">
+        <a href="index.html"><img class="logo" src="DML_Logo_250_wide.png"></a> 
+      </div>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
+      <a href="writingportfolio.html">Writing</a>
+      <a href="designportfolio.html">Design</a>
+      <a href="aboutme.html">About</a>
+      <a href="https://dontmakelies.substack.com/" target="_blank">Blog</a>
+      <a href="https://www.etsy.com/shop/dontmakelies" target="_blank">Shop</a>
+      <div class="social_icons">
+        <a href="https://www.instagram.com/dontmakelies/" target="_blank"><img class="instagram_icon" src="social_icons/instagram_icon.svg"></a>
+        <a href="https://www.linkedin.com/in/madisonmercado/" target="_blank"><img class="linkedin_icon" src="social_icons/linkedin_icon.svg"></a>
+      </div>
+    </div>
+
+    <div class="hamburgerbtn">
+      <span class="openbtn" onclick="openNav()">&#9776; </span>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("sidebar").style.width = "250px";
+      }
+  
+      function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
+      }
+    </script>
+
+    <div class="design_body">
+      <h1 class="design_header">
+        Design and Illustration
+      </h1>
+
+      <div class="image_gallery">
+        <div class="rows">
+          <div class="columns">
+            <div class="content">
+              <a class="content_title" href="musicstickers.html"><img class="portfolio_images" src="images/everything i know about love all stickers.png"></a>
+              <a class="content_title" href="musicstickers.html">Music Stickers</a>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="content">
+              <a class="content_title" href="DMLbranding.html"><img class="portfolio_images" src="images/dml branding.png"></a>
+              <a class="content_title" href="DMLbranding.html">Don't Make Lies Brand Design</a>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="content">
+              <a class="content_title" href="DMLwebsite.html"><img class="portfolio_images" src="images/full studio.png"></a>
+              <a class="content_title" href="DMLwebsite.html">Don't Make Lies Website Design</a>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="content">
+              <a class="content_title" href="buzzgraphics.html"><img class="portfolio_images" src="buzz_images/connecting to nature graphic.png"></a>
+              <a class="content_title" href="buzzgraphics.html">Graphics and Illustrations for The Buzz</a>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="content">
+              <a class="content_title" href="designcoursework.html"><img class="portfolio_images" src="images/emails stickers.png"></a>
+              <a class="content_title" href="designcoursework.html">Design Course Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+  <!--
+      <div class="image_gallery">
+        <div class="responsive">
+          <div class="gallery">
+              <a class="content_title" href="musicstickers.html"><img class="portfolio_images" src="images/everything i know about love all stickers.png"></a>
+              <a class="content_title" href="musicstickers.html">Music Stickers</a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a class="content_title" href="DMLbranding.html"><img class="portfolio_images" src="images/dml branding.png"></a>
+            <a class="content_title" href="DMLbranding.html">Don't Make Lies Brand Design</a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a class="content_title" href="DMLwebsite.html"><img class="portfolio_images" src="images/full studio.png"></a>
+            <a class="content_title" href="DMLwebsite.html">Don't Make Lies Website Design</a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a class="content_title" href="buzzgraphics.html"><img class="portfolio_images" src="buzz_images/connecting to nature graphic.png"></a>
+            <a class="content_title" href="buzzgraphics.html">Graphics and Illustrations for The Buzz</a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a class="content_title" href="designcoursework.html"><img class="portfolio_images" src="images/emails stickers.png"></a>
+            <a class="content_title" href="designcoursework.html">Design Course Work</a>
+          </div>
+        </div>
+
+        <div class="clearfix">
+      
+      </div>
+    </div> -->
+
+  </body>
+</html>
