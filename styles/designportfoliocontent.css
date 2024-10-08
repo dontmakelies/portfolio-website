@@ -40,49 +40,52 @@
   color: #f59098;
 }
 
+
 .rows {
-  margin: 8px -16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.rows,
-.rows > .columns {
-  padding: 8px;
-}
-
+/* Create four equal columns that sits next to each other */
 .columns {
-  float: left;
-  width: 48%;
-}
-/* Clear floats after rows */
-.rows:after {
-  content: "";
-  display: table;
-  clear: both;
+  flex: 48%;
+  max-width: 48%;
+  padding: 0 4px;
 }
 
-/* Content */
-.content {
-  padding: 5px;
+.columns img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .columns {
-    width: 46%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .list, .content_description_2{
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .column {
-    width: 100%;
-  }
-  .image_gallery {
-    padding-left: 2%;
-    padding-right: 2%;
+@media screen and (max-width: 600px) {
+  .columns {
+    flex: 100%;
+    max-width: 100%;
   }
 
+  .list, .content_description_2{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
+
 
 .content_description {
   font-family: Rubik;
@@ -113,4 +116,14 @@
   flex: 50%;
   font-family: Rubik;
   text-align: left;
+}
+
+.here_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a7f9e;
+}
+
+.here_link:hover {
+  color: #331b12;
 }

@@ -18,9 +18,11 @@
   object-fit: contain;
 }
 
+/*
 .image_gallery img:hover {
   box-shadow: 0 0 10px #f59098;
 }
+  */
 
 .content_title {
   font-family: Rubik, Arial;

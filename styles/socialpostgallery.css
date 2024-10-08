@@ -1,0 +1,102 @@
+.design_content_header {
+  font-family: "puffin-arcade-liquid", sans-serif, Rubik, Arial;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 72px;
+}
+
+.here_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a7f9e;
+}
+
+.here_link:hover {
+  color: #331b12;
+}
+
+.content_description_2 {
+  font-family: Rubik;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.content_title {
+  font-family: Rubik, Arial;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #331b12;
+}
+
+.content_title:hover {
+  color: #f59098;
+}
+
+.text {
+  flex: 50%;
+  font-family: Rubik;
+  text-align: left;
+  padding-top: 14px;
+}
+
+.list{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.images {
+  width: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .columns {
+    flex: 48%;
+    max-width: 48%;
+    padding: 0 4px;
+  }
+  
+  .columns img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .columns {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .list, .content_description_2{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columns {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .list, .content_description_2{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }

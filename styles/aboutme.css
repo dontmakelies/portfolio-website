@@ -32,7 +32,26 @@
 }
 
 .resume_link:hover {
-  color: #f59098;
+  color: #2a7f9e;
+}
+
+.socials_icons_about {
+  display: flex;
+  flex-direction: row; 
+}
+
+.instagram_icon_about {
+  height: 22px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(342%) hue-rotate(150deg) brightness(101%) contrast(91%);
+}
+
+.linkedin_icon_about {
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  filter: brightness(0) saturate(100%) invert(35%) sepia(94%) saturate(342%) hue-rotate(150deg) brightness(101%) contrast(91%);
 }
 
 @media screen and (max-width: 700px) {
